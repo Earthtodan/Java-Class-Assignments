@@ -1,0 +1,38 @@
+
+
+Classes:
+
+1) Books: {
+    Instances variables:
+        **ISBN (String)**
+        **Title (String)**
+        **Author (String)**
+        **Cost (Double)**
+
+    Functions/methods:
+        ISBN Number (Get)
+        Title (Get)
+        Author (Get)
+        Cost (Get)
+
+        **Book Info (Print)**
+}
+
+2) Cart: {
+    Instances variables:
+        Books (Array)
+
+    Functions/methods:
+        Total Cost (Get) - double tempTotalCost = 0.0; /*Use a for loop*//*get each book*//*get price of each book and add it to tempTotalCost*/ return tempTotalCost;
+        Cart (Print)
+        addItemToCart
+        removeItemFromCart
+}
+
+3) E-Commerce Application: {
+
+    /*Create a book*/
+    /*Create a cart*/
+    /*cart.addItemToCart(newly created Book)*/
+    cart.printCart()
+}
